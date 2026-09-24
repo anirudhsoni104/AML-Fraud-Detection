@@ -2,7 +2,7 @@
 
 Detecting money-laundering patterns in transaction data using SQL data cleaning, Python EDA, and graph-based anomaly detection — built on the IBM AMLSim synthetic dataset.
 
-[Fraud Intelligence Dashboard]<img width="5691" height="3245" alt="fraud_intelligence_dashboard" src="https://github.com/user-attachments/assets/e3c365e9-6c62-451a-998d-3ebe0508e259" />
+<img width="5691" height="3245" alt="fraud_intelligence_dashboard" src="https://github.com/user-attachments/assets/e3c365e9-6c62-451a-998d-3ebe0508e259" />
 
 
 > **Note on the dashboard above:** it's rendered from a 1,000-row sample of the cleaned data for readability. Figures reference the full dataset stats below unless labeled "sample."
@@ -66,8 +66,8 @@ cd aml-fraud-detection
 pip install -r requirements.txt
 ```
 
-1. Run `sql/fraud_data_clean_ani.sql` against a MySQL instance loaded with the raw AMLSim tables to produce `accounts_clean`, `transactions_clean`, `alerts_clean`.
-2. Open `notebooks/EDA.ipynb` for exploratory analysis.
+1. Run `fraud_data_clean.sql` against a MySQL instance loaded with the raw AMLSim tables to produce `accounts_clean`, `transactions_clean`, `alerts_clean`.
+2. Open `EDA.ipynb` for exploratory analysis.
 3. Dashboard is regenerated from `dashboard/` scripts (Matplotlib).
 
 ## Status
