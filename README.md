@@ -33,6 +33,19 @@ Anti-money-laundering (AML) systems have to catch a needle-in-a-haystack pattern
 - **Graph analysis:** 19 raw transaction cycles detected, 18 confirmed as genuine structural cycles after review. Fan-in flagging threshold was corrected to the 95th percentile after the naive threshold over-flagged normal accounts.
 - **Boolean inconsistency across tables:** `IS_FRAUD` was stored as lowercase `'true'/'false'` in `accounts` but Titlecase `'True'/'False'` in `transactions` — normalized during cleaning.
 
+## 🎯 Business Objectives
+
+The main objectives of this project are to:
+
+1. Clean and prepare transaction data using SQL.
+2. Perform exploratory data analysis using Python.
+3. Identify unusual transaction behavior and potential fraud signals.
+4. Analyze transaction and account-level risk patterns.
+5. Calculate important fraud and AML KPIs.
+6. Create a management-friendly fraud intelligence dashboard.
+7. Convert analytical findings into actionable business insights.
+
+
 ## Repo Structure
 
 aml-fraud-detection/
